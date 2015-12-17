@@ -1,0 +1,25 @@
+{
+  "name": "shovel",
+  "version": "1.0.0",
+  "description": "Extracts data from websites using CSS selectors",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pjerem/shoveljs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pjerem/shoveljs/issues"
+  },
+  "homepage": "https://github.com/pjerem/shoveljs#readme",
+  "dependencies": {
+    "cheerio": "^0.19.0",
+    "lodash": "^3.10.1",
+    "promise": "^7.0.4",
+    "request": "^2.67.0"
+  }
+}
