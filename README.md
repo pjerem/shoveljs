@@ -64,4 +64,5 @@ shovel('http://m.viedemerde.fr/', {
 ## Running tests
     git clone https://github.com/pjerem/shoveljs.git
     cd shoveljs
+    npm install
     npm test
