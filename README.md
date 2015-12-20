@@ -42,10 +42,21 @@ shovel('http://m.viedemerde.fr/', {
         }
     },
     nextSelector: '.pagination.right a',
-    number: null,
+    number: 3,
 }).then(function(results) {
     vdmposts = results;
     console.log("Results: ", vdmposts);
+    /* Outputs: 
+        Results:  [ { post: 'Aujourd\'hui, Ma vie est dure. VDM',
+        date: '20/12/2015',
+        author: 'Déprime' },
+      { post: 'Aujourd\'hui, j\'ai aimé Star Wars 7. VDM',
+        date: '19/12/2015',
+        author: 'SWFanBoy' },
+      { post: 'Aujourd\'hui, iAdvize va m\'embaucher. COOL',
+        date: '21/12/2015',
+        author: 'Anonyme' } ]
+    */
 }, function(error) {
     console.log("Error",error);
 });

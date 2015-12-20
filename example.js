@@ -23,9 +23,9 @@ shovel('http://m.viedemerde.fr/', {
         }
     },
     nextSelector: '.pagination.right a',
-    number: null,
+    number: 3,
 }).then(function(results) {
-    vdmposts = results;
+    vdmposts = results
     console.log("Results: ", vdmposts);
 }, function(error) {
     console.log("Error",error);
