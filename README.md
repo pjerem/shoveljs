@@ -11,7 +11,7 @@ and, optionally, set the 'nextSelector', which will allow Shovel to extract more
 data by using the pagination system provided by the target website.
 
 ## Example
-``` javascript
+``` JavaScript
 var shovel = require('shoveljs);
 
 var vdmposts = null;
