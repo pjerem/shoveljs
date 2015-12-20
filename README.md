@@ -6,8 +6,11 @@ Extracts data from web pages using CSS selectors.
 
 Using Shovel is pretty simple : 
 You just have to define a starting URL to extract the data from, set the main
-element you want to extract 
+element you want to extract, define the structure of objects you want to get,
+and, optionally, set the 'nextSelector', which will allow Shovel to extract more
+data by using the pagination system provided by the target website.
 
+## Example
 
     var shovel = require('./lib/shovel');
     
