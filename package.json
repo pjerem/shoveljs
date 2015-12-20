@@ -1,5 +1,5 @@
 {
-  "name": "shovel",
+  "name": "shoveljs",
   "version": "1.0.0",
   "description": "Extracts data from websites using CSS selectors",
   "main": "./lib/shovel.js",
