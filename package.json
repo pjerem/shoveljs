@@ -2,9 +2,9 @@
   "name": "shovel",
   "version": "1.0.0",
   "description": "Extracts data from websites using CSS selectors",
-  "main": "index.js",
+  "main": "./lib/shovel.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha test/"
   },
   "repository": {
     "type": "git",
@@ -21,5 +21,10 @@
     "lodash": "^3.10.1",
     "promise": "^7.0.4",
     "request": "^2.67.0"
+  },
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "mocha": "^2.3.4",
+    "rewire": "^2.5.1"
   }
 }
