@@ -12,7 +12,7 @@ data by using the pagination system provided by the target website.
 
 ## Example
 ``` JavaScript
-var shovel = require('shoveljs);
+var shovel = require('shoveljs');
 
 var vdmposts = null;
 
